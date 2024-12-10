@@ -9,7 +9,7 @@ def run_discord_bot():
     load_dotenv()
 
     TOKEN = os.getenv("TOKEN")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID"))  #https://discord.com/channels/{サーバーID}/{チャンネルID}
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID"))  
 
 
     #clientの作成と、その権限の付与
